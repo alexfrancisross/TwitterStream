@@ -34,5 +34,3 @@ CREATE TABLE Twitter
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE Tableau
-  OWNER TO "Administrator";
