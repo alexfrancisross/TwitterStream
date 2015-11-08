@@ -1,4 +1,4 @@
-﻿DROP TABLE Twitter;
+DROP TABLE IF EXISTS Twitter;
 
 CREATE TABLE Twitter
 (
@@ -34,3 +34,5 @@ CREATE TABLE Twitter
 WITH (
   OIDS=FALSE
 );
+ALTER TABLE Tableau
+  OWNER TO "Administrator";
